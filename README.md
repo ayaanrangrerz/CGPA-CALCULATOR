@@ -1,2 +1,16 @@
-# CGPA-CALCULATOR
-A C++ application that calculates a student's CGPA based on grades and credit hours. The program computes total credits, grade points, and displays the final CGPA accurately.
+# CGPA Calculator (C++)
+
+## Description
+A simple C++ program to calculate CGPA based on course grades and credit hours.
+
+## Features
+- Input multiple courses
+- Calculate total credits
+- Calculate total grade points
+- Display final CGPA
+
+## Technology Used
+- C++
+
+## Author
+Ayaan Ali
