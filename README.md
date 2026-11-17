@@ -1,16 +1,20 @@
-# CGPA Calculator (C++)
+# CGPA Calculator
 
-## Description
-A simple C++ program to calculate CGPA based on course grades and credit hours.
+A command-line C++ program that calculates a weighted CGPA from course grade points and credit hours.
 
-## Features
-- Input multiple courses
-- Calculate total credits
-- Calculate total grade points
-- Display final CGPA
+For each course, enter a grade point on a 0–10 scale and its credit hours. The program computes the weighted average:
 
-## Technology Used
-- C++
+`sum(grade point × credits) / sum(credits)`
 
-## Author
-Ayaan Ali
+## Build and run
+Requires a C++ compiler with C++11 support.
+
+```bash
+g++ -std=c++11 cgpa_calculator.cpp -o cgpa_calculator
+./cgpa_calculator
+```
+
+On Windows, run `cgpa_calculator.exe` after compiling.
+
+## Note
+Enter a positive number of courses and a non-zero total of credit hours.
